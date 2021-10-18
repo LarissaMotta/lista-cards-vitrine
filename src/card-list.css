@@ -1,0 +1,58 @@
+head nav {
+    border-radius: 2px !important;
+}
+
+header nav a p {
+    color: #FFF !important;
+    display: inline;
+    text-transform: uppercase;
+}
+
+.font-xsmall{
+    font-size: 0.5rem;
+}
+
+.font-small{
+    font-size: 0.8rem;
+}
+
+.container{
+    margin-top: 100px;
+}
+
+.card{
+    height: 400px;
+}
+
+.card .card-img-top{
+    display: block;
+    height: 200px;
+}
+
+.card .top-card{
+    align-items: end;
+}
+
+.card .profile-text{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+.card:hover .card-img-top{
+    border-radius: 2px;
+    height: 400px;
+    display: block;
+    position: relative;
+}
+
+.card:hover .profile{
+    top: 10px
+}
+
+.card:hover .card-body{
+    bottom: 10px;
+    position: absolute;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
